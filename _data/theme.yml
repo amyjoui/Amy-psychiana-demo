@@ -8,9 +8,9 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: demo_001
+featured-image: psychiana031
 # optional: add extra padding around collection title for a larger image feature. 
-home-title-y-padding: # Default is 8em
+home-title-y-padding: 12em
 # optional: change position of background image, center, top, bottom
 home-banner-image-position: # Default is center
 # height of the carousel at the bottom of the home page; this is in px, but just enter a number (don't include "px"). Default is 300
@@ -28,7 +28,7 @@ featured-locations-max: 3 # set number of top locations to display if auto gener
 #
 # Featured image on About page - if left blank, CB will use image featured on the home page
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-about-featured-image: demo_001
+about-featured-image: psychiana005
 
 ##########
 # BROWSE PAGE
@@ -52,7 +52,7 @@ subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g.
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: location # set the field to be featured in the cloud
+locations-fields: # set the field to be featured in the cloud
 locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
@@ -80,7 +80,7 @@ year-nav-increment: 5 # set increments when auto gen nav years
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "objectid,filename,youtubeid,title,format,description,creator,recipient	date,date-is-approximate?,item_information,subject,related_publication,publisher-digital,source,findingaid,original-identifier,identifier,rights,rightsstatement,type,language,relation"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
 
@@ -99,7 +99,7 @@ navbar-background: bg-dark
 # BOOTSWATCH THEMES
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Enter one of the following options below: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: # leave blank or comment out for plain bootstrap
+bootswatch: #
 
 # THEME FONTS
 base-font-size: 1.2em
