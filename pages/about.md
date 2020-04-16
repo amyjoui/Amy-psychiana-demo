@@ -11,8 +11,12 @@ permalink: /about.html
 
 This is my first attempt at creating a Digital Collection. All items, with the exception of the YouTube video, come from the University of Idaho Library Special Collections collection [MG 101 Frank Bruce Robinson Papers](https://archiveswest.orbiscascade.org/ark:/80444/xv97133/). The YouTube video was produced by Northwest Public Broadcasting. From the finding aid: 
 
+{% include feature/item-figure.html objectid="psychiana005" width="50" float="left" %}
+
 > While living in Portland, Oregon in the mid 1920's, Frank Robinson had a "vision of the future" seeing himself at the head of a new religion, one based on I Corinthians 3:16: "Know ye not that your bodies are the temples of God--and that the Spirit of God liveth in you?" Frank B. Robinson and family moved to Moscow in April 1928 and started the Psychiana organization shortly after. While working at the Corner Drug Store he continually jotted notes to himself, and on a Saturday night he locked his door, sat at his typewriter, and in the next thirty-six hours typed the first set of ten lessons for his unnamed religion. Borrowing about $2500 from several towns people, Robinson had the lessons printed and commenced advertising. Before long the advertisements for this new religion appeared in 700 newspapers, 86 magazines, and over 18 radio stations. Anyone answering one of these advertisements received approximately 67 pieces of literature over a 22 week span. At its peak Psychiana was reported to be the seventh largest religious organization; it employed nearly one hundred people, mostly women, and handled up to 50,000 pieces of mail per day.
->
+
+{% include feature/item-figure.html objectid="psychiana033" width="50" float="right"  %}
+
 > When Frank Robinson died on October 19, 1948, his son, Alfred, who had assisted his father since 1947, attempted to continue operations, but after several years he was forced to close, the rapid rise in postal rates being given as the main reason. The last mailings were sent out in 1952, and in January 1953 all operations ceased. The sorting of the remaining lessons and other material took several years. By 1955 the University of Idaho Library was fortunate enough to have obtained copies of the lessons and books authored by Dr. Robinson. 
 
 # About CollectionBuilder:
